@@ -4,18 +4,17 @@
 </body>
 </html> -->
 
-
-<%@ page import="Demo.MyClass"%>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JSP Page</title>
 </head>
 <body>
-  <jsp:useBean id="test" class="Demo.MyClass" />
-  <%
-   MyClass tc = new MyClass();
-   out.print(tc.testMethod());
-  %>
+   <form action="primenum.jsp" method="POST">
+   	  <label for="primenum">Enter a number </label>
+      <input type="text" id="primenumid" name="txtPrimenum" />
+      <input type="submit" value="Submit" />
+    </form>
+ 
 </body>
 </html>

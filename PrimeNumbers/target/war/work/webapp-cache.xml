@@ -5,7 +5,10 @@
       <path-set>
         <pathsSet class="linked-hash-set">
           <string>index.jsp</string>
+          <string>primenum.jsp</string>
           <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/com/brandeis/assignment7/ComputePrime.class</string>
+          <string>WEB-INF/classes/com/brandeis/assignment7/PrimeNumbers.class</string>
         </pathsSet>
       </path-set>
     </entry>
